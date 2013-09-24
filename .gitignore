@@ -213,3 +213,23 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#############
+## Maya
+#############
+.mayaSwatches
+
+
+#############
+## Blender
+#############
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+*.blend10
