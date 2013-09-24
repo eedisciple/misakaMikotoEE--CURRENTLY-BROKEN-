@@ -1,7 +1,7 @@
-Hello, I am a fan of EE, and wish to make his life all gucci with anime mods.
-I've begun work on the files for the misakaMikoto mod.
+Hello, we are fans of EE, and wish to make his life all gucci with anime mods.
+We've begun work on the files for the misakaMikoto mod.
 
-If you want to help with this, contact me somehow. I currently need loads of sounds that I'll be working on myself anyway.
+If you want to help with this, contact me somehow. I currently need loads of sounds and vo sounds for misaka.
 
 =================================
 TECHNICAL DOCUMENTATION
@@ -15,3 +15,10 @@ v0.1 (pre-alpha) -
 -Added minimap icon
 -Added dota_english.txt modifications to include misaka's nickname, Biribiri as her hero name
 -Added WIP model and textures to the wip folder
+
+September 23 2013:
+v0.2 (pre-alpha) -
+-Folder hierarchy for audio and script files created
+-Added sound scripts
+-Pulled a commit by belived clover...
+-Started work on the ripped psp misaka mikoto model (THANK YOU, BELIVEDCLOVER)
