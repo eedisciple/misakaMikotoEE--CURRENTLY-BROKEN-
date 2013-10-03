@@ -36,5 +36,12 @@ v0.9 (alpha) -
 -Began retexturing Misaka Mikoto to look good in dota 2
 -Began animations for Misaka Mikoto
 -Preparing list of files to be replaced in vpk thru nrootn's programming skillz
- 
-tl;dr EE: WE ARE ALMOST FINISHED
+
+October 02 2013-
+v0.9rev1 (alpha)
+-Added all Animations (src)
+-Fixed a few scripts
+-Working on one last script
+-Tested compile of model, waiting either on MESA 2.0 or bigpet to compile later tomorrow
+
+Estimated release date is Thursday, Oct 3 2013
