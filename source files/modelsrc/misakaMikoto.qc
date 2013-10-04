@@ -1,4 +1,4 @@
-$modelname "models\heroes\misakaMikoto\storm_spirit.mdl"
+$modelname "models\heroes\storm_spirit\storm_spirit.mdl"
 $model "default" "misakaMikoto.smd"
 
 $lod 1
@@ -9,34 +9,19 @@ $poseparameter turn -1.00 1.00
 $cdmaterials "materials\models\heroes\misakaMikoto"
 $texturegroup skinfamilies
 {
-	{ "models/heroes/storm_spirit/storm_spirit_base_color.vmt" }
-	{ "models/heroes/storm_spirit/storm_spirit_staticremnant.vmt" }
+	{ "materialsrc/misakaMikoto_base_color.vmt" }
+	{ "materialsrc/misakaMikoto_staticremnant.vmt" }
 }
 $hboxset "default"
-$hbox 0 "knee_L" 3.752  -10.068  -11.753  22.203  6.058  12.040
-$hbox 0 "thigh_L" 9.042  -21.982  -18.010  29.789  12.798  16.971
-$hbox 0 "knee_R" -22.203  -6.212  -10.097  -3.752  10.324  9.856
-$hbox 0 "thigh_R" -29.789  -12.798  -17.805  -9.042  21.982  18.895
-$hbox 0 "head" -16.011  -19.170  -7.419  12.279  19.170  19.925
-$hbox 0 "elbow_R" -28.627  -14.737  -10.345  2.015  10.116  11.392
-$hbox 0 "bicep_R" -30.349  -10.994  -12.812  -1.276  8.188  14.823
-$hbox 0 "elbow_L" -1.894  -9.332  -12.716  26.910  13.594  11.547
-$hbox 0 "bicep_L" 1.276  -8.188  -14.823  30.349  10.994  12.812
-$hbox 0 "Character1_Spine2" -13.975  -30.060  -23.557  23.322  30.060  16.327
-$hbox 0 "root" -22.910  -26.606  -4.875  38.477  26.606  30.522
+$hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
 $hboxset "head"
-$hbox 1 "head" -17.104  -16.584  -7.511  20.970  16.584  22.751
-$hbox 0 "head" -16.011  -19.170  -7.419  12.279  19.170  19.925
+$hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
 $hboxset "feet"
-$hbox 1 "ankle_R" -17.146  -6.369  -3.323  4.978  6.523  10.225
-$hbox 1 "ankle_L" -5.805  -6.523  -10.537  19.993  6.369  3.425
-$hbox 0 "ankle_L" -5.805  -6.523  -10.537  19.993  6.369  3.425
-$hbox 0 "ankle_R" -17.146  -6.369  -3.323  4.978  6.523  10.225
+$hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
 $hboxset "select_low"
-$hbox 0 "root" -85.965  -91.770  -63.602  89.942  91.772  72.099
+$hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
 $hboxset "select_high"
 $hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
-$hbox 0 "root" -29.902  -41.487  16.616  33.503  41.112  74.998
 $hboxset "hands"
 $hbox 1 "Character1_RightHand" -1.926  -9.539  -10.412  24.539  5.034  8.560
 $hbox 1 "Character1_RightHand" -25.267  -5.034  -8.560  1.983  9.539  10.412
@@ -49,7 +34,7 @@ $attachment "attach_portrait" "Character1_Spine2" 0.00 0.00 0.00 rotate 90.00 90
 $surfaceprop "default"
 $keyvalues  {  } 
 $illumposition 7.661 0.001 77.360
-$sequence BindPose "modelsrc\BindPose.smd" fps 30.00
+$sequence BindPose "BindPose.smd" fps 30.00
 $sequence spawn_temp "spawn_temp" ACT_DOTA_SPAWN 1 fps 30.00
 $sequence run "run" loop ACT_DOTA_RUN 1 fps 30.00 {
   { event AE_CL_PLAYSOUND 6 "Hero_StormSpirit.Footsteps" }
