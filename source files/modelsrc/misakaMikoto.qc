@@ -1,12 +1,12 @@
-$modelname "heroes/storm_spirit/storm_spirit.mdl"
-$model "default" "storm_spirit_model.dmx.smd"
+$modelname "models\heroes\misakaMikoto\storm_spirit.mdl"
+$model "default" "misakaMikoto.smd"
 
 $lod 1
  {
-  replacemodel "storm_spirit_model.dmx" "lod1_storm_spirit_model.dmx"
+  replacemodel "misakaMikoto.smd" "misakaMikoto.smd"
 }
 $poseparameter turn -1.00 1.00
-$cdmaterials ""
+$cdmaterials "materials\models\heroes\misakaMikoto"
 $texturegroup skinfamilies
 {
 	{ "models/heroes/storm_spirit/storm_spirit_base_color.vmt" }
@@ -22,7 +22,7 @@ $hbox 0 "elbow_R" -28.627  -14.737  -10.345  2.015  10.116  11.392
 $hbox 0 "bicep_R" -30.349  -10.994  -12.812  -1.276  8.188  14.823
 $hbox 0 "elbow_L" -1.894  -9.332  -12.716  26.910  13.594  11.547
 $hbox 0 "bicep_L" 1.276  -8.188  -14.823  30.349  10.994  12.812
-$hbox 0 "spine2" -13.975  -30.060  -23.557  23.322  30.060  16.327
+$hbox 0 "Character1_Spine2" -13.975  -30.060  -23.557  23.322  30.060  16.327
 $hbox 0 "root" -22.910  -26.606  -4.875  38.477  26.606  30.522
 $hboxset "head"
 $hbox 1 "head" -17.104  -16.584  -7.511  20.970  16.584  22.751
@@ -38,49 +38,44 @@ $hboxset "select_high"
 $hbox 0 "root" -39.766  -49.062  -64.533  44.739  49.064  15.629
 $hbox 0 "root" -29.902  -41.487  16.616  33.503  41.112  74.998
 $hboxset "hands"
-$hbox 1 "wrist_L" -1.926  -9.539  -10.412  24.539  5.034  8.560
-$hbox 1 "wrist_R" -25.267  -5.034  -8.560  1.983  9.539  10.412
-$hbox 0 "wrist_R" -25.267  -5.034  -8.560  1.983  9.539  10.412
-$hbox 0 "wrist_L" -1.926  -9.539  -10.412  24.539  5.034  8.560
-$attachment "attach_attack1" "wrist_R" -14.53 0.16 0.78 rotate -15.41 -170.44 97.06
-$attachment "attach_attack2" "wrist_L" 16.15 -0.07 -2.05 rotate 14.72 4.29 -98.43
-$attachment "attach_hitloc" "spine2" 0.00 -0.00 0.00 rotate 65.25 -180.00 -90.00
+$hbox 1 "Character1_RightHand" -1.926  -9.539  -10.412  24.539  5.034  8.560
+$hbox 1 "Character1_RightHand" -25.267  -5.034  -8.560  1.983  9.539  10.412
+$hbox 0 "Character1_RightHand" -25.267  -5.034  -8.560  1.983  9.539  10.412
+$hbox 0 "Character1_RightHand" -1.926  -9.539  -10.412  24.539  5.034  8.560
+$attachment "attach_attack1" "Character1_RightHand" -14.53 0.16 0.78 rotate -15.41 -170.44 97.06
+$attachment "attach_attack2" "Character1_RightHand" 16.15 -0.07 -2.05 rotate 14.72 4.29 -98.43
+$attachment "attach_hitloc" "Character1_Spine2" 0.00 -0.00 0.00 rotate 65.25 -180.00 -90.00
 $attachment "attach_portrait" "portrait" 0.00 0.00 0.00 rotate 90.00 90.00 0.00
 $surfaceprop "default"
 $keyvalues  {  } 
 $illumposition 7.661 0.001 77.360
-$sequence BindPose "BindPose" fps 30.00
+$sequence BindPose "BindPose.smd" fps 30.00
 $sequence spawn_temp "spawn_temp" ACT_DOTA_SPAWN 1 fps 30.00
 $sequence run "run" loop ACT_DOTA_RUN 1 fps 30.00 {
   { event AE_CL_PLAYSOUND 6 "Hero_StormSpirit.Footsteps" }
   { event AE_CL_PLAYSOUND 17 "Hero_StormSpirit.Footsteps" }
 }
 
-$sequence idle "idle" loop ACT_DOTA_IDLE 8 fps 30.00
-$sequence portrait "portrait" loop ACT_DOTA_CAPTURE 1 fps 30.00
-$sequence idle_overload "idle_overload" loop ACT_STORM_SPIRIT_OVERLOAD_IDLE_OVERRIDE 1 fps 30.00
-$sequence run_overload "run_overload" loop ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE 1 fps 30.00
-$sequence attack01 "attack01" ACT_DOTA_ATTACK 1 fps 30.00 {
+$sequence idle "idle.smd" loop ACT_DOTA_IDLE 8 fps 30.00
+$sequence portrait "portrait.smd" loop ACT_DOTA_CAPTURE 1 fps 30.00
+$sequence idle_overload "idle_overload.smd" loop ACT_STORM_SPIRIT_OVERLOAD_IDLE_OVERRIDE 1 fps 30.00
+$sequence run_overload "run_overload.smd" loop ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE 1 fps 30.00
+$sequence attack01 "attack01.smd" ACT_DOTA_ATTACK 1 fps 30.00 {
   { event AE_DOTA_PLAY_SOUND_ATTACK 15 }
 }
 
-$sequence attack02 "attack02" ACT_DOTA_ATTACK 1 fps 30.00 {
+$sequence attack02 "attack02.smd" ACT_DOTA_ATTACK 1 fps 30.00 {
   { event AE_DOTA_PLAY_SOUND_ATTACK 15 }
 }
 
-$sequence static_remnant "static_remnant" ACT_DOTA_CAST_ABILITY_1 1 fps 30.00
-$sequence static_remnant2 "static_remnant2" ACT_DOTA_CAST_ABILITY_1 1 fps 30.00
-$sequence static_remnant_staticpose "static_remnant_staticpose" static_remnant_staticpose 1 fps 5.00
-$sequence electric_vortex "electric_vortex" ACT_DOTA_CAST_ABILITY_2 1 fps 30.00
-$sequence death "death" ACT_DOTA_DIE 1 fps 30.00 {
+$sequence electric_vortex "electric_vortex.smd" ACT_DOTA_CAST_ABILITY_2 1 fps 30.00
+$sequence death "death.smd" ACT_DOTA_DIE 1 fps 30.00 {
   { event AE_CL_PLAYSOUND 29 "BodyImpact_Common.Light" }
 }
 
-$sequence stun "stun" loop ACT_DOTA_DISABLED 1 fps 30.00
-$sequence Roll "Roll" loop ACT_DOTA_OVERRIDE_ABILITY_4 1 fps 30.00
-$sequence Roll_pre "Roll_pre" ACT_DOTA_CAST_ABILITY_4 1 fps 30.00
-$sequence Roll_post "Roll_post" ACT_DOTA_STORM_ABILITY_4 1 fps 30.00
-$sequence static_remnant_idle "static_remnant_idle" loop ACT_DOTA_OVERRIDE_ABILITY_1 1 fps 30.00
-$sequence static_remnant_idle2 "static_remnant_idle2" loop ACT_DOTA_OVERRIDE_ABILITY_1 1 fps 5.00
-$sequence flail "flail" loop ACT_DOTA_FLAIL 1 fps 30.00
-$sequence idle_alt "idle_alt" loop ACT_DOTA_IDLE_RARE 1 fps 30.00
+$sequence stun "stun.smd" loop ACT_DOTA_DISABLED 1 fps 30.00
+$sequence Roll "Roll.smd" loop ACT_DOTA_OVERRIDE_ABILITY_4 1 fps 30.00
+$sequence Roll_pre "Roll_pre.smd" ACT_DOTA_CAST_ABILITY_4 1 fps 30.00
+$sequence Roll_post "Roll_post.smd" ACT_DOTA_STORM_ABILITY_4 1 fps 30.00
+$sequence flail "flail.smd" loop ACT_DOTA_FLAIL 1 fps 30.00
+$sequence idle_alt "idle_alt.smd" loop ACT_DOTA_IDLE_RARE 1 fps 30.00
