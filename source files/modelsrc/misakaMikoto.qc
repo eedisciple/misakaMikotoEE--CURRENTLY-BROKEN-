@@ -45,11 +45,11 @@ $hbox 0 "Character1_RightHand" -1.926  -9.539  -10.412  24.539  5.034  8.560
 $attachment "attach_attack1" "Character1_RightHand" -14.53 0.16 0.78 rotate -15.41 -170.44 97.06
 $attachment "attach_attack2" "Character1_RightHand" 16.15 -0.07 -2.05 rotate 14.72 4.29 -98.43
 $attachment "attach_hitloc" "Character1_Spine2" 0.00 -0.00 0.00 rotate 65.25 -180.00 -90.00
-$attachment "attach_portrait" "portrait" 0.00 0.00 0.00 rotate 90.00 90.00 0.00
+$attachment "attach_portrait" "Character1_Spine2" 0.00 0.00 0.00 rotate 90.00 90.00 0.00
 $surfaceprop "default"
 $keyvalues  {  } 
 $illumposition 7.661 0.001 77.360
-$sequence BindPose "BindPose.smd" fps 30.00
+$sequence BindPose "modelsrc\BindPose.smd" fps 30.00
 $sequence spawn_temp "spawn_temp" ACT_DOTA_SPAWN 1 fps 30.00
 $sequence run "run" loop ACT_DOTA_RUN 1 fps 30.00 {
   { event AE_CL_PLAYSOUND 6 "Hero_StormSpirit.Footsteps" }
