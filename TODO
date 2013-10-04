@@ -1,6 +1,3 @@
-- [x] Pictures and text, icons and spell texts - 100%
-- [X] Sound files - 100% 
-- [X] Script files - 100%
-- [X] Model - 100%
-   - [O] Retexturing for dota 2 - 50%
-- [X] Animations
+- Retexture entire mesh
+- investigate and update qc file
+- static remnant idle poses
