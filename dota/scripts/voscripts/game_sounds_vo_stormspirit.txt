@@ -171,7 +171,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_move_14.mp3"
+	"wave" 		"*vo\misaka\move2.mp3"
 }
 
 "stormspirit_ss_attack_01"
@@ -179,7 +179,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_attack_01.mp3"
+	"wave" 		"*vo\misaka\null.mp3"
 }
 
 "stormspirit_ss_attack_02"
@@ -235,7 +235,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_attack_08.mp3"
+	"wave" 		"*vo\misaka\null.mp3"
 }
 
 "stormspirit_ss_attack_09"
@@ -1443,7 +1443,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_laugh_01.mp3"
+	"wave" 		"*vo\misaka\Misaka_rare_04.mp3"
 }
 
 "stormspirit_ss_happy_02"
@@ -1451,7 +1451,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_laugh_01.mp3"
+	"wave" 		"*vo\misaka\Misaka_static_03.mp3"
 }
 
 "stormspirit_ss_happy_03"
@@ -1467,7 +1467,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_laugh_01.mp3"
+	"wave" 		"*vo\misaka\Misaka_static_03.mp3"
 }
 
 "stormspirit_ss_laugh_02"
@@ -1491,7 +1491,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\Misaka_laugh_01.mp3"
+	"wave" 		"*vo\misaka\move2.mp3"
 }
 
 "stormspirit_ss_laugh_05"
@@ -1827,7 +1827,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level01.mp3"
 }
 
 "stormspirit_stormspirit_levelup_02"
@@ -1835,7 +1835,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level02.mp3"
 }
 
 "stormspirit_stormspirit_levelup_03"
@@ -1843,7 +1843,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level03.mp3"
 }
 
 "stormspirit_stormspirit_levelup_04"
@@ -1851,7 +1851,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level04.mp3"
 }
 
 "stormspirit_stormspirit_levelup_05"
@@ -1859,7 +1859,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level05.mp3"
 }
 
 "stormspirit_stormspirit_levelup_06"
@@ -1867,7 +1867,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\null.mp3"
+	"wave" 		"*vo\misaka\Misaka_level06.mp3"
 }
 
 "stormspirit_stormspirit_lasthit_01"
@@ -2019,7 +2019,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\respawn_01.mp3"
+	"wave" 		"*vo\misaka\win.mp3"
 }
 
 "stormspirit_stormspirit_deny_01"
