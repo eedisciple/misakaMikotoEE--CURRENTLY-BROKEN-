@@ -765,7 +765,7 @@
 	}
 	"models/heroes/storm_spirit/storm_spirit.mdl"
 	{
-		"PortraitPosition"		"120.21 20.91 200.24"
+		"PortraitPosition"		"160.21 45.91 180.24"
 		"PortraitLookAt"		"8.80 195.24 0.00"
 		"PortraitFOV"		"21"
 		"PortraitLightPosition"		"67.00 -1.57 180.04"
@@ -779,7 +779,7 @@
 		"PortraitAmbientColor"		"0.00 0.00 0.00"
 		"PortraitAmbientScale"		"1.000000"
 		"PortraitSpecularColor"		"0.97 0.07 0.09"
-		"PortraitBackgroundTexture"		"vgui/hud/heroportraits/portraitbackground_windrunner"
+		"PortraitBackgroundTexture"		"vgui/hud/heroportraits/portraitbackground_darkclouds"
 		"PortraitBackgroundColor1"		".3 .5 1"
 		"PortraitBackgroundColor2"		".3 .6 1"
 		"PortraitBackgroundColor3"		".4 .7 1"
