@@ -1,4 +1,4 @@
-"VertexLitGeneric"
+"CustomHero"
 {
 	$baseTexture "models/heroes/storm_spirit/misakamikoto_texture"
 	"$normalmap" "models/heroes/legion_commander/legion_base_normal"
