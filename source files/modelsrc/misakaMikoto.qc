@@ -24,10 +24,10 @@ $hbox 1 "Character1_RightHand" -25.267  -5.034  -8.560  1.983  9.539  10.412
 $hbox 0 "Character1_RightHand" -25.267  -5.034  -8.560  1.983  9.539  10.412
 $hbox 0 "Character1_RightHand" -1.926  -9.539  -10.412  24.539  5.034  8.560
 
-$attachment "attach_attack1" "Character1_RightHand" -14.53 0.16 0.78 rotate -15.41 -70.44 97.06
+$attachment "attach_attack1" "Character1_RightHand" -14.53 0.16 0.78 rotate -15.41 -170.44 97.06
 $attachment "attach_attack2" "Character1_RightHand" 16.15 -0.07 -2.05 rotate 14.72 4.29 -98.43
 $attachment "attach_hitloc" "Character1_Spine2" 0.00 -0.00 0.00 rotate 65.25 -180.00 -90.00
-$attachment "attach_portrait" "Character1_Head" 0.00 50.00 0.00 rotate 90.00 90.00 0.00
+$attachment "attach_portrait" "Character1_Head" 0.00 0.00 0.00 rotate 90.00 90.00 0.00
 $keyvalues  {  } 
 $illumposition 7.661 0.001 77.360
 
