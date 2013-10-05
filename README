@@ -1,9 +1,28 @@
-Hello, I'm a fan of EE and I am creating the misakaMikoto mod. 
-It's almost done. Check TODO if you really want to know what needs tbd
+Welcome to EE's Misaka Mikoto mod for Dota 2.
+This is a completely originally animated and partially original model designed and compiled to replace Storm Spirit in Dota 2.
+It was created in the span of 2 weeks. Updates to things like animations and particles and vo sounds to come. Thank you!
 
-It was supposed to be out yesterday and I completely failed so I guess it's time to commit stockingu
+This is still in early release. There are still things to be done.
 
-goodbye cruel world ill try to finish this tomorrow
+HOW TO INSTALL:
+1. Download: https://github.com/eedisciple/misakaMikotoEE/archive/master.zip
+2. Extract master.zip to the root directory of the "dota 2 beta" folder
+3. Right click Dota 2 in steam, click 'Properties' and on the General tab click LAUNCH OPTIONS
+4. in the text field in the LAUNCH OPTIONS window type   -override_vpk
+5. Launch DOTA 2. Storm Spirit is renamed to Biribiri, so remember to look in the B's for her, not the S's. Or click CTRL and click her icon to pick her.
+
+HOW TO UNINSTALL:
+Either wait until I make a batch script or delete all the files you extracted manually.
+
+FAQ:
+Q: Can I get banned?
+A: No.
+Q: Why isn't she Zeus?
+A: read the complaint
+
+If you have any questions, please feel free to contact me somehow.
+Thanks~
+
 
 =================================
 TECHNICAL DOCUMENTATION
@@ -55,3 +74,4 @@ v1.1
 -Released!
 -Added exclamation marks!
 -Tested by EE!
+-Fixed sounds!
