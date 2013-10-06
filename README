@@ -8,9 +8,9 @@ This is still in early release. There are still things to be done.
 
 HOW TO INSTALL:
 1. Download: https://github.com/eedisciple/misakaMikotoEE/archive/master.zip
-2. Extract master.zip to the root directory of the "dota 2 beta" folder
+2. Run dota.exe and extract all files to the following directory: <Path to steam directory>\Steamapps\common\dota 2 beta\dota
 3. Right click Dota 2 in steam, click 'Properties' and on the General tab click LAUNCH OPTIONS
-4. in the text field in the LAUNCH OPTIONS window type   -override_vpk
+4. In the text field in the LAUNCH OPTIONS window type:   -override_vpk
 5. Launch DOTA 2. Storm Spirit is renamed to Biribiri, so remember to look in the B's for her, not the S's. Or click CTRL and click her icon to pick her.
 
 HOW TO UNINSTALL:
