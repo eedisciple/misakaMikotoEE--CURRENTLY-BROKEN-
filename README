@@ -77,3 +77,11 @@ v1.1
 -Added exclamation marks!
 -Tested by EE!
 -Fixed sounds!
+
+October 06 2013:
+v1.4
+-Added self-extractor with udpated install process!
+-Updated hero portrait background!
+-Small updates to scripts!
+-Fixed animations being off by 10 frames (thats a big deal)!
+-Fixed attack animations and respective fps in compile file!
