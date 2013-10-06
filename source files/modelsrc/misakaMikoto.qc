@@ -34,7 +34,7 @@ $illumposition 7.661 0.001 77.360
 
 $sequence BindPose "BindPose.smd" fps 30.00
 $sequence spawn_temp "spawn_temp.smd" ACT_DOTA_SPAWN 1 fps 30.00
-$sequence run "run.smd" loop ACT_DOTA_RUN 1 fps 30.00 {
+$sequence run "run.smd" loop ACT_DOTA_RUN 1 fps 30.20 {
   { event AE_CL_PLAYSOUND 6 "Hero_StormSpirit.Footsteps" }
   { event AE_CL_PLAYSOUND 17 "Hero_StormSpirit.Footsteps" }
 }
@@ -42,12 +42,12 @@ $sequence run "run.smd" loop ACT_DOTA_RUN 1 fps 30.00 {
 $sequence idle "idle.smd" loop ACT_DOTA_IDLE 8 fps 30.00
 $sequence portrait "portrait.smd" loop ACT_DOTA_CAPTURE 1 fps 30.00
 $sequence idle_overload "idle_overload.smd" loop ACT_STORM_SPIRIT_OVERLOAD_IDLE_OVERRIDE 1 fps 30.00
-$sequence run_overload "run_overload.smd" loop ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE 1 fps 30.00
-$sequence attack01 "attack01.smd" ACT_DOTA_ATTACK 1 fps 35.00 {
+$sequence run_overload "run_overload.smd" loop ACT_STORM_SPIRIT_OVERLOAD_RUN_OVERRIDE 1 fps 30.50
+$sequence attack01 "attack01.smd" ACT_DOTA_ATTACK 1 fps 30.00 {
   { event AE_DOTA_PLAY_SOUND_ATTACK 15 }
 }
 
-$sequence attack02 "attack02.smd" ACT_DOTA_ATTACK 1 fps 36.00 {
+$sequence attack02 "attack02.smd" ACT_DOTA_ATTACK 1 fps 30.50 {
   { event AE_DOTA_PLAY_SOUND_ATTACK 15 }
 }
 
