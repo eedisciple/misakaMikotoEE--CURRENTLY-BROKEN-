@@ -67,7 +67,7 @@
  	"channel" 	"CHAN_VOICE"
 	"volume" 	"1.00"
  	"soundlevel" 	"SNDLVL_TALKING"
-	"wave" 		"*vo\misaka\ss_spawn_02.mp3"
+	"wave" 		"*vo\misaka\Misaka_spawn_02.mp3"
 }
 
 "stormspirit_ss_move_01"
