@@ -776,7 +776,7 @@
 		"PortraitShadowColor"		"0.00 0.01 0.02"
 		"PortraitShadowScale"		"1.000000"
 		"PortraitAmbientOrigin"		"46.59 -99.14 28.36"
-		"PortraitAmbientColor"		"66.00 66.00 66.00"
+		"PortraitAmbientColor"		"20.00 20.00 20.00"
 		"PortraitAmbientScale"		"1.000000"
 		"PortraitSpecularColor"		"0.97 0.07 0.09"
 		"PortraitBackgroundTexture"		"vgui/hud/heroportraits/portraitbackground_bluesky_gyro"
