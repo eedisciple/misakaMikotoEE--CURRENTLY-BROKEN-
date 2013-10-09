@@ -7,8 +7,8 @@ Thank you!
 This is still in early release. There are still things to be done.
 
 HOW TO INSTALL:
-1. Download: http://tinyurl.com/eemisaka
-2. Run 'EternaLEnVy's Misaka Mikoto Mod.exe' and extract all files to the following directory: <Path to steam directory>\Steamapps\common\dota 2 beta\dota
+1. Download: http://goo.gl/NCvHnG
+2. Extract 'dota' and merge it into the following directory: <Path to steam directory>\Steamapps\common\dota 2 beta\dota
 3. Right click Dota 2 in steam, click 'Properties' and on the General tab click LAUNCH OPTIONS
 4. In the text field in the LAUNCH OPTIONS window type:   -override_vpk
 5. Launch DOTA 2. Storm Spirit is renamed to Biribiri, so remember to look in the B's for her, not the S's. Or click CTRL and click her icon to pick her.
@@ -84,5 +84,14 @@ v1.4
 -Small updates to scripts!
 -Fixed animations being off by 10 frames (thats a big deal)!
 -Fixed attack animations and respective fps in compile file!
+
+October 07 2013:
+v1.5
+-Updated run animation due to popular whining!
+-Updated hero portrait!
+-Updated spawn animation!
+-Updated sounds!
+-Updated voice script I think!
+-Updated material file to make her seem happier!
 
 any questions please contact me  @ http://steamcommunity.com/id/suwako
