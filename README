@@ -7,7 +7,7 @@ Thank you!
 This is still in early release. There are still things to be done.
 
 HOW TO INSTALL:
-1. Download: http://tinyurl.com/eemisaka
+1. Download: http://www.tinyurl.com/eemisaka
 2. Extract 'dota' and merge it into the following directory: <Path to steam directory>\Steamapps\common\dota 2 beta\dota
 3. Right click Dota 2 in steam, click 'Properties' and on the General tab click LAUNCH OPTIONS
 4. In the text field in the LAUNCH OPTIONS window type:   -override_vpk
