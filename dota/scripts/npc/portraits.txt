@@ -765,7 +765,7 @@
 	}
 	"models/heroes/storm_spirit/storm_spirit.mdl"
 	{
-		"PortraitPosition"		"151.00 40.00 187.00"
+		"PortraitPosition"		"119.00 33.00 135.00"
 		"PortraitLookAt"		"7.00 194.00 0.00"
 		"PortraitFOV"		"14"
 		"PortraitLightPosition"		"67.00 -1.57 180.04"
