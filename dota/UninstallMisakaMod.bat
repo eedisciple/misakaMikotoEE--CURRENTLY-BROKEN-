@@ -1,4 +1,3 @@
-@echo on
 @echo Uninstalling Misaka Mod
 @pause
 
